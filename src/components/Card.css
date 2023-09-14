@@ -1,0 +1,12 @@
+.card {
+    height: 300px; /* Set the desired fixed height for your card */
+    overflow: hidden;
+  }
+  
+  .card .description {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Show up to 3 lines of text */
+    -webkit-box-orient: vertical;
+  }
